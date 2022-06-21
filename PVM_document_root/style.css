@@ -1,0 +1,163 @@
+/* Park View Ministries CSS StyleSheet
+    Author: BenLamb */
+html {
+    margin: 0;
+    background-color: #e6ffe6;
+    line-height: 1.5;
+    color: black;
+    font-family: Palatino, "Times New Roman", serif;
+    font-size: 20px;
+}
+
+#allcontent {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: #543a83;
+    padding: 5px;
+}
+
+a:hover {
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+a:visited {
+    color: #B7082F;
+}
+
+aside {
+    float: left;
+    width: 250px;
+}
+
+aside img {
+    width: 250px;
+}
+
+nav {
+    margin: 0 30px 0 20px;
+    padding: 0 0 30px 30px;
+    border: dashed #543a83 2px;
+    border-radius: 10px;
+    background-color: #FFF9C0;
+    font-family: "Nova Square", "Gill Sans", Helvetica, Arial, sans-serif;
+    position: relative;
+    top: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+footer {
+    font-size: 90%;
+    text-align: center;
+    padding-top: 50px;
+    clear: left;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+article {
+    margin: 20px 5px 5px 270px;
+}
+
+h1 {
+    font-family: "Nova Square", "Gill Sans", Helvetica, Arial, sans-serif;
+    font-size: 250%;
+    font-variant: small-caps;
+    text-align: center;
+    border-bottom: medium black solid;
+    padding-bottom: 5px;
+}
+
+h2 {
+    font-family: "Nova Square", "Gill Sans", Helvetica, Arial, sans-serif;
+    font-variant: small-caps;
+    position: relative;
+    right: 30px;
+    top: 15px;
+}
+
+.intro-line {
+    font-style: italic;
+    font-size: 120%;
+    position: relative;
+    left: 50px;
+}
+
+
+p {
+    text-align: justify;
+}
+
+
+#profile-header {
+    color: whitesmoke;
+    position: absolute;
+    top: -30px;
+    font-size: 150%;
+    color: white;
+    background-color: #543a83;
+    padding: 20px;
+}
+
+#heroprofile {
+    width: 450px;
+    position: relative;
+}
+
+#profile-pic {
+    width: 450px;
+    border-radius: 50% 50% 5px 5px;
+    margin-left: 75px;
+}
+
+.member-pic {
+    width: 250px;
+    border-radius: 50% 50% 5px 5px;
+    margin-left: 40px;
+}
+
+.last-section {
+    margin: 20px;
+}
+
+#pp {
+    margin-left: 50px;
+    margin-top: -8px;
+    padding: 25px;
+    background-color: #FFF9C0;
+    border: dashed #543a83 2px;
+    border-radius: 10px;
+}
+
+
+/*FORM FORMATTING*/
+
+#login_form, #display_search {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+input[type="email"] {
+    position: relative;
+    left: 29px;
+}
+
+.contact {
+    display: inline-block;
+    float: left;
+    width: 8em;
+    text-align: right;
+    margin-right: 10px;
+}
